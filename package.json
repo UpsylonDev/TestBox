@@ -1,0 +1,26 @@
+{
+  "name": "html-template-playground",
+  "version": "1.0.0",
+  "description": "An Html5-Boiler PLate  Template  with all Development Library : For testing stuffs ! ...Include\r JQUERY\r BOOTSTRAP, \r Vue, \r SCROLLMAGIC, \r GSAP Gsap Command",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UpsylonDev/HTML-TEMPLATE-PlayGround.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UpsylonDev/HTML-TEMPLATE-PlayGround/issues"
+  },
+  "homepage": "https://github.com/UpsylonDev/HTML-TEMPLATE-PlayGround#readme",
+  "dependencies": {
+    "codyhouse-framework": "^2.1.7"
+  }
+}
