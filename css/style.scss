@@ -5,26 +5,23 @@
 // BTN GSAP CSS
 #gsap-command{
     display: flex;
-    width: 30%;
 
     .GSAP-BUTTONS {
         position: fixed;
         z-index: 10000;
         display: flex;
+        
         flex-wrap: wrap;
         top: 90%;
-        left: 75%;
+        left: 70%;
         font-size: 0.6rem;
         button {
             border-radius: 8px;
             background: rgba(236, 121, 13, 0.329);
+            &:hover {
+                transform: scale(1.5);
+            }
         }
     }
 }
-//===========================END GSAP BTN
-body{
-    background: #000;
-}
-#carouselExampleControls{
-    margin: 0 auto;
-}
+//===========================END GSAP BTN=============================

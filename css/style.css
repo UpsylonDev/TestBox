@@ -2,7 +2,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
 }
 
 #gsap-command .GSAP-BUTTONS {
@@ -14,7 +13,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   top: 90%;
-  left: 75%;
+  left: 70%;
   font-size: 0.6rem;
 }
 
@@ -23,11 +22,8 @@
   background: rgba(236, 121, 13, 0.329);
 }
 
-body {
-  background: #000;
-}
-
-#carouselExampleControls {
-  margin: 0 auto;
+#gsap-command .GSAP-BUTTONS button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */
