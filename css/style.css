@@ -22,4 +22,12 @@
   border-radius: 8px;
   background: rgba(236, 121, 13, 0.329);
 }
+
+body {
+  background: #000;
+}
+
+#carouselExampleControls {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
