@@ -1,27 +1,9 @@
-// @import "../css/mixins/_mixins";
-// @import "../css/variables/_variables";
-// @import "../css/buttons/_buttons";
-
-// BTN GSAP CSS
-#gsap-command{
-    display: flex;
-
-    .GSAP-BUTTONS {
-        position: fixed;
-        z-index: 10000;
-        display: flex;
-        
-        flex-wrap: wrap;
-        top: 90%;
-        left: 70%;
-        font-size: 0.6rem;
-        button {
-            border-radius: 8px;
-            background: rgba(236, 121, 13, 0.329);
-            &:hover {
-                transform: scale(1.5);
-            }
-        }
+.perso {
+    transition: .3s;
+    &:hover {
+        transform: scale(1.5);
     }
+  }
+p {
+    padding: 20px;
 }
-//===========================END GSAP BTN=============================
