@@ -32,9 +32,24 @@ border-radius: 12px;
     }
     .filter {
     position:absolute ;
+    top: 0;
     width:50%;
     height:100%;
     background-color: rgba(151, 111, 73, 0.63);
     opacity: .3;
+    }
+}
+.t2 {
+    position: absolute;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+        transition: 3s;
+        transform-origin: bottom right;
+    &:hover {
+        transform: translateX(29px) scale(2);
+    }
     }
 }
