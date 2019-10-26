@@ -6,7 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <link rel="stylesheet" href="css/boostrapp/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="css/boostrapp/bootstrap.min.css">
 
@@ -17,28 +17,123 @@
     </head>
 
     <body>
-    
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        -->
+        <div class="container-fluid main ">
 
-        <!-- =========Main content================== -->
-       
-        <div class="container-fluid  col-12">
-            <h1>Titre de Page</h1>
-            <div class="row col-md-12  col-sm-8">
-                <div class="coll md-col-12">
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque amet ab officia sint recusandae. Aliquam perferendis fugiat, neque aspernatur consectetur accusantium enim nulla, pariatur ab vitae nesciunt incidunt totam porro?</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque amet ab officia sint recusandae. Aliquam perferendis fugiat, neque aspernatur consectetur accusantium enim nulla, pariatur ab vitae nesciunt incidunt totam porro?</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque amet ab officia sint recusandae. Aliquam perferendis fugiat, neque aspernatur consectetur accusantium enim nulla, pariatur ab vitae nesciunt incidunt totam porro?</p>
+            <nav class=" test navbar navbar-expand-lg navbar-dark bg-dark col-12">
+                <a class="navbar-brand dark" href="">Mettre le logo</a>
+
+                <div class="custom-file col-3">
+                    <input id="my-input" class="custom-file-input" type="file" name="">
+                    <label for="my-input" class="custom-file-label">Text</label>
                 </div>
-                <div class="row col-12">
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque amet ab officia sint recusandae. Aliquam perferendis fugiat, neque aspernatur consectetur accusantium enim nulla, pariatur ab vitae nesciunt incidunt totam porro?</p>
+
+                <form action="#" name="test" method="post">
+                    <button class="btn btn-primary  ml-3 mr-3" type="submit">Poster
+                    </button>
+
+                </form>
+
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Item 1
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="card">
+                <div class="card-header red">
+                    Contenu du header
+                    <button class="btn btn-success " type="button">En savoir plus
+                    </button>
+                    <div
+                        id="my-modal"
+                        class="modal fade"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p>Content</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum reprehenderit amet porro magnam harum sit obcaecati, possimus architecto,
+                        nostrum dolorum libero pariatur veniam dolore? Modi accusantium repellendus
+                        inventore distinctio nobis.</p>
                 </div>
             </div>
-            <button class="btn btn-success perso">BOUTON 1</button>
+
+            <div class="sidebar col-6">
+                <h1>Mon sidebar</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo
+                    assumenda quidem voluptatem dignissimos delectus ipsum nobis tenetur atque
+                    mollitia aliquam deserunt suscipit, ab cupiditate nesciunt alias blanditiis
+                    totam recusandae.</p>
+            </div>
+
+            <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Natus similique numquam, optio atque quia repudiandae, nisi nemo unde in
+                repellat magnam. Magnam non laudantium doloribus voluptates, et aut fuga ab?
+            </div>
+            <div class="page-header">
+                titre de la page
+            </div>
+            <img src="https://picsum.photos/200/300" alt="">
+            <img src="https://picsum.photos/201/300" alt="">
+            <img id="imgTemp" src="http://source.unsplash.com/random/300x500">
+
+            <div class="form-check">
+                <input
+                    id="my-input"
+                    class="form-check-input"
+                    type="checkbox"
+                    name=""
+                    value="true">
+                <label for="my-input" class="form-check-label">Text</label>
+            </div>
+            <div class="input">
+                <label for="">Mon label
+                </label>
+                <input type="text">
+            </div>
+
+            <div class="input-group col-3">
+
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Text</span>
+                </div>
+
+                <input
+                    class="form-control"
+                    type="text"
+                    name=""
+                    placeholder="Recipient's text"
+                    aria-label="Recipient's text">
+            </div>
+            &larr;Précédent
+            &larrpl; <a href="" class="">Retour</a>
+            <input type="submit" class="btn btn-primary disabled" value="validation">
+            <div id="im">
+                   <div class="filter">
+                   <div class="tata">
+                    </div>
+                       
+                
+            </div>
         </div>
-        
-            
-
-
 
         <!-- Scripts Librarys ------------------------------------------------------->
 
@@ -47,12 +142,12 @@
 
         <!-- Boostrap -->
         <script src="./js/vendor/boostrap/js/bootstrap.bundle.min.js"></script>
-        
+
         <!-- SCROLL MAGIC -->
         <script src="./js/vendor/ScrollMagic.min.js"></script>
         <script src="./js/vendor/plugins/debug.addIndicators.min.js"></script>
         <script src="./js/vendor/plugins/animation.gsap.min.js"></script>
-        
+
         <!-- Gsap -->
         <script src="./js/vendor/gsap/minified/TimelineMax.min.js"></script>
         <script src="./js/vendor/gsap/minified/easing/EasePack.min.js"></script>
